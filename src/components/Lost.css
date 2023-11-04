@@ -1,0 +1,75 @@
+
+.lost{
+  background-color: #fff1e6;
+    height: calc(100vh - 72px);
+    background-size: cover;
+ 
+}
+
+.filter-bar {
+  position: sticky;
+  top: 0;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the select element for category filtering */
+.filter-bar select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  background-color: #fff;
+}
+
+/* Style the checkbox for date sorting */
+.filter-bar input[type="checkbox"] {
+  margin-left: 5px;
+}
+
+/* Style the list items */
+.list-items {
+  margin-top: 20px; /* Add margin to separate the items from the filter bar */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  gap: 20px; /* Adjust the gap as needed */
+  margin: 10px;
+}
+
+/* Card styles */
+.card {
+  width: 100%; /* 100% width to fill the grid cell */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fff;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+.card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.card button:hover {
+  background-color: palevioletred;
+}
+

@@ -1,0 +1,77 @@
+/* AboutUs.css */
+
+.about-us {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff1e6;
+    height: calc(100vh - 72px);
+    background-size: cover;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ddbea9;
+    text-align: left;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+  }
+  
+  .about-content h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .team-member {
+    width: 200px;
+    padding: 20px;
+    border: 3px solid #007bff;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #007bff; /* Add a blue border */
+    margin: 0 auto 10px;
+  }
+  
+  .team-member h4 {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the "Thank You" section */
+  .thank-you {
+    font-size: 2rem;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  

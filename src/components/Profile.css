@@ -1,0 +1,63 @@
+/* UserProfile.css */
+
+.user-profile-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: calc(100vh - 72px); /* Ensure the card is centered both horizontally and vertically on the page */
+    background-color:#fff1e6;
+    height: calc(100vh - 72px);
+    background-size: cover;
+  }
+  
+  .user-profile {
+    background-color: #a99fa0;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 400px;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .user-profile h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  .avatar {
+    width: 80px;
+    height: 80px;
+    background-color: #007bff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 auto 20px; /* Center the avatar and add space at the bottom */
+  }
+  .logout-button{
+    all: unset;
+    margin: 30px;
+    padding: 6px 16px;
+    background-color: palevioletred ;
+    height: 32px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 200;
+    margin: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .logout-button:hover{
+    background-color: pink;
+    color: black;
+  }
